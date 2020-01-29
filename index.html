@@ -1,1 +1,60 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marcos Lessa</title>
+    <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="assets/animate.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div id="particles-js"></div>     
+
+    <div id="card" class="animated zoomInDown">
+        <div id="card-left">
+            <img src="assets/avatar.png" class="animate-on-hover" data-action="pulse" alt="avatar">    
+        </div>
+
+        <div id="card-right">
+            <h1>/marcoslessa</h1>
+            <div id="social" >
+                <a href="https://br.linkedin.com/in/marcoslessa" class="animate-on-hover" data-action="rotateIn" alt='ae'>
+                    <img class="grayscale" src="assets/logo_linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/marcoslessa" class="animate-on-hover" data-action="rotateIn">
+                    <img class="grayscale" src="assets/logo_github.png" alt="GitHub">
+                </a>                
+            </div>            
+        </div>
+    </div>    
+
+        
+
+    
+
+
+    <script src="assets/jquery.js"></script>
+    <script src="assets/particles.min.js"></script>
+    <script>
+        // hover magic :D
+        $(".animate-on-hover").hover(function(){
+            $(this).addClass('animated ' + $(this).data('action'));
+        });
+        $(".animate-on-hover").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",function(){
+            $(this).removeClass('animated ' + $(this).data('action'));
+        });
+
+        particlesJS.load('particles-js', 'assets/particlesjs-config.json');
+
+        $( document ).ready(function() {
+            console.log("\"There is no knowledge that is not power.\" - Ralph Waldo Emerson");
+            console.log('%c LinkedIn> https://br.linkedin.com/in/marcoslessa', 'background: blue; color: white; display: block;');
+            console.log('%c GitHub> https://github.com/marcoslessa', 'background: black; color: white; display: block;');            
+        });
+
+    </script>    
+</body>
+</html>
