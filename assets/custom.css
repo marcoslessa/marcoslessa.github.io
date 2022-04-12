@@ -8,6 +8,7 @@ body {
 }
 h1 {
   font-size: 35px;
+  white-space: nowrap;
 }
 h1:hover {
   color: greenyellow;
@@ -21,16 +22,17 @@ h1:hover {
 
 #first-line {
   display: flex;
+  align-items: center;
 }
 
 #second-line {
   display: flex;
-  justify-content: space-evenly;
-  margin: 0px 80px;
+  justify-content: center;
 }
 #card {
   display: flex;
   flex-direction: column;
+  padding: 16px;
 }
 
 body {
