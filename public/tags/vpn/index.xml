@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marcos Lessa – Vpn</title>
+    <link>//localhost:1313/tags/vpn/</link>
+    <description>Recent content in Vpn on Marcos Lessa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>How to access servers securely with Google IAP</title>
+      <link>//localhost:1313/blog/how-to-access-servers-securely-google-iap/</link>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/blog/how-to-access-servers-securely-google-iap/</guid>
+      <description>
+        
+        
+        &lt;p&gt;WIP&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

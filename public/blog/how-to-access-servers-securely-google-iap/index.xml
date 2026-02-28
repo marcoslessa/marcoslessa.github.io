@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marcos Lessa – How to access servers securely with Google IAP</title>
+    <link>//localhost:1313/blog/how-to-access-servers-securely-google-iap/</link>
+    <description>Recent content in How to access servers securely with Google IAP on Marcos Lessa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="//localhost:1313/blog/how-to-access-servers-securely-google-iap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
